@@ -1,0 +1,5 @@
+exports/
+node_modules/
+test.js
+test.xml
+package-lock.json

@@ -1,0 +1,35 @@
+{
+  "name": "lottie-to-avd",
+  "version": "0.0.1",
+  "description": "Lottie to AVD converter",
+  "main": "./src/index.js",
+  "bin": {
+    "lottie-to-avd": "./lottie-to-avd.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "browserify src/index.js -o lib/build.js -t [ babelify --presets [ babel-preset-es2015 ] ]"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/garawaa/lottie-to-avd.git"
+  },
+  "author": "Garawaa <garawaa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/garawaa/lottie-to-avd/issues"
+  },
+  "homepage": "https://github.com/garawaa/lottie-to-avd#readme",
+  "dependencies": {
+    "transformation-matrix": "^2.16.1",
+    "transformatrix": "^1.1.1",
+    "xml": "^1.0.1",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0"
+  }
+}

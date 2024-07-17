@@ -1,0 +1,4 @@
+locally:
+node lottie-to-avd.js -i sample.json -o sample.xml
+globally:
+lottie-to-avd -i sample.json -o sample.xml
